@@ -51,91 +51,11 @@ $EndComp
 Wire Wire Line
 	4900 3350 4900 3300
 NoConn ~ 5500 3100
-$Comp
-L Device:R R?
-U 1 1 5E062611
-P 5700 3300
-F 0 "R?" H 5770 3346 50  0000 L CNN
-F 1 "768" H 5770 3255 50  0000 L CNN
-F 2 "" V 5630 3300 50  0001 C CNN
-F 3 "~" H 5700 3300 50  0001 C CNN
-	1    5700 3300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5E062617
-P 5700 3900
-F 0 "R?" H 5770 3946 50  0000 L CNN
-F 1 "12" H 5770 3855 50  0000 L CNN
-F 2 "" V 5630 3900 50  0001 C CNN
-F 3 "~" H 5700 3900 50  0001 C CNN
-	1    5700 3900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6300 3450 6300 3500
-Wire Wire Line
-	6000 3450 6000 3600
-Wire Wire Line
-	5700 3450 5700 3700
-Wire Wire Line
-	6300 3500 6750 3500
-Connection ~ 6300 3500
-Wire Wire Line
-	6300 3500 6300 3750
-Wire Wire Line
-	6000 3600 6750 3600
-Connection ~ 6000 3600
-Wire Wire Line
-	6000 3600 6000 3750
-Wire Wire Line
-	5700 3700 6750 3700
-Connection ~ 5700 3700
-Wire Wire Line
-	5700 3700 5700 3750
-Wire Wire Line
-	5500 3000 5700 3000
-Wire Wire Line
-	5700 3000 5700 3150
-Wire Wire Line
-	5500 2900 6000 2900
-Wire Wire Line
-	6000 2900 6000 3150
-Wire Wire Line
-	5500 2800 6300 2800
-Wire Wire Line
-	6300 2800 6300 3150
-$Comp
-L power:GND #PWR?
-U 1 1 5E068856
-P 5700 4150
-F 0 "#PWR?" H 5700 3900 50  0001 C CNN
-F 1 "GND" H 5705 3977 50  0000 C CNN
-F 2 "" H 5700 4150 50  0001 C CNN
-F 3 "" H 5700 4150 50  0001 C CNN
-	1    5700 4150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5700 4050 5700 4100
-Wire Wire Line
-	5700 4100 6000 4100
-Wire Wire Line
-	6000 4100 6000 4050
-Connection ~ 5700 4100
-Wire Wire Line
-	5700 4100 5700 4150
-Wire Wire Line
-	6000 4100 6300 4100
-Wire Wire Line
-	6300 4100 6300 4050
-Connection ~ 6000 4100
-Text Label 6750 3500 0    50   ~ 0
+Text Label 5500 2800 0    50   ~ 0
 PT0
-Text Label 6750 3600 0    50   ~ 0
+Text Label 5500 2900 0    50   ~ 0
 PT1
-Text Label 6750 3700 0    50   ~ 0
+Text Label 5500 3000 0    50   ~ 0
 PT2
 Wire Wire Line
 	7350 4050 7550 4050
@@ -282,50 +202,4 @@ Wire Wire Line
 	4250 3000 4300 3000
 Wire Wire Line
 	4300 3100 4250 3100
-Text Notes 5700 2300 0    50   ~ 0
-Each pair of resistors in voltage divider must have a similar temperature coefficient (like from the same resistor family)
-$Comp
-L Device:R R?
-U 1 1 5EAFB0C7
-P 6000 3300
-F 0 "R?" H 6070 3346 50  0000 L CNN
-F 1 "768" H 6070 3255 50  0000 L CNN
-F 2 "" V 5930 3300 50  0001 C CNN
-F 3 "~" H 6000 3300 50  0001 C CNN
-	1    6000 3300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5EAFB244
-P 6300 3300
-F 0 "R?" H 6370 3346 50  0000 L CNN
-F 1 "768" H 6370 3255 50  0000 L CNN
-F 2 "" V 6230 3300 50  0001 C CNN
-F 3 "~" H 6300 3300 50  0001 C CNN
-	1    6300 3300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5EAFB46A
-P 6000 3900
-F 0 "R?" H 6070 3946 50  0000 L CNN
-F 1 "12" H 6070 3855 50  0000 L CNN
-F 2 "" V 5930 3900 50  0001 C CNN
-F 3 "~" H 6000 3900 50  0001 C CNN
-	1    6000 3900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5EAFB66D
-P 6300 3900
-F 0 "R?" H 6370 3946 50  0000 L CNN
-F 1 "12" H 6370 3855 50  0000 L CNN
-F 2 "" V 6230 3900 50  0001 C CNN
-F 3 "~" H 6300 3900 50  0001 C CNN
-	1    6300 3900
-	1    0    0    -1  
-$EndComp
 $EndSCHEMATC

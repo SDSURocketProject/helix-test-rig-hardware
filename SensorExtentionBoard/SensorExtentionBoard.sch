@@ -14,40 +14,40 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 6750 5050 1250 750 
+S 8750 5100 1250 750 
 U 5E059E7A
 F0 "HallEffect" 50
 F1 "HallEffect.sch" 50
-F2 "HE0" I L 6750 5150 50 
-F3 "HE1" I L 6750 5250 50 
-F4 "HE2" I L 6750 5350 50 
-F5 "HE_ADC_ALERT_~RDY" I L 6750 5700 50 
-F6 "HE_ADC_SCL" I L 6750 5500 50 
-F7 "HE_ADC_SDA" I L 6750 5600 50 
+F2 "HE0" I L 8750 5200 50 
+F3 "HE1" I L 8750 5300 50 
+F4 "HE2" I L 8750 5400 50 
+F5 "HE_ADC_ALERT_~RDY" I L 8750 5750 50 
+F6 "HE_ADC_SCL" I L 8750 5550 50 
+F7 "HE_ADC_SDA" I L 8750 5650 50 
 $EndSheet
 $Sheet
-S 6750 2950 1250 750 
+S 8750 3000 1250 750 
 U 5E059E8F
 F0 "Thermocouple" 50
 F1 "Thermocouple.sch" 50
-F2 "TC_SDA" I L 6750 3050 50 
-F3 "TC_SCL" I L 6750 3150 50 
-F4 "TC_~LDAC" I L 6750 3250 50 
-F5 "TC_RDY_~BSY" I L 6750 3350 50 
-F6 "TC0_POL" I L 6750 3500 50 
-F7 "TC1_POL" I L 6750 3600 50 
+F2 "TC_SDA" I L 8750 3100 50 
+F3 "TC_SCL" I L 8750 3200 50 
+F4 "TC_~LDAC" I L 8750 3300 50 
+F5 "TC_RDY_~BSY" I L 8750 3400 50 
+F6 "TC0_POL" I L 8750 3550 50 
+F7 "TC1_POL" I L 8750 3650 50 
 $EndSheet
 $Sheet
-S 6750 3950 1250 750 
+S 8750 4000 1250 750 
 U 5E059E9F
 F0 "RTD" 50
 F1 "RTD.sch" 50
-F2 "RTD0_SDA" I L 6750 4050 50 
-F3 "RTD0_SCL" I L 6750 4150 50 
-F4 "RTD0_~INT" I L 6750 4250 50 
-F5 "RTD1_SDA" I L 6750 4400 50 
-F6 "RTD1_SCL" I L 6750 4500 50 
-F7 "RTD1_~INT" I L 6750 4600 50 
+F2 "RTD0_SDA" I L 8750 4100 50 
+F3 "RTD0_SCL" I L 8750 4200 50 
+F4 "RTD0_~INT" I L 8750 4300 50 
+F5 "RTD1_SDA" I L 8750 4450 50 
+F6 "RTD1_SCL" I L 8750 4550 50 
+F7 "RTD1_~INT" I L 8750 4650 50 
 $EndSheet
 Text Label 2150 2800 2    50   ~ 0
 SEB_SCL
@@ -89,7 +89,7 @@ U 1 1 5E40940C
 P 1300 1800
 F 0 "J3" H 1350 2117 50  0000 C CNN
 F 1 "Conn_02x03_Top_Bottom" H 1350 2026 50  0000 C CNN
-F 2 "" H 1300 1800 50  0001 C CNN
+F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43045-0612_2x03_P3.00mm_Vertical" H 1300 1800 50  0001 C CNN
 F 3 "~" H 1300 1800 50  0001 C CNN
 	1    1300 1800
 	1    0    0    -1  
@@ -157,60 +157,60 @@ Wire Wire Line
 	2150 1700 2150 1650
 Connection ~ 1850 1700
 NoConn ~ 1600 1900
-Text Notes 3400 1000 0    50   ~ 0
+Text Notes 4800 1000 0    50   ~ 0
 Function
-Text Notes 4350 1000 0    50   ~ 0
+Text Notes 5750 1000 0    50   ~ 0
 I2C Mux
-Text Notes 4750 1000 0    50   ~ 0
+Text Notes 6150 1000 0    50   ~ 0
 I2C Address
 Wire Notes Line style solid
-	4300 900  4300 2050
+	5700 900  5700 2050
 Wire Notes Line style solid
-	4700 900  4700 2050
-Text Notes 4200 850  0    50   ~ 10
+	6100 900  6100 2050
+Text Notes 5600 850  0    50   ~ 10
 I2C Address Map
 Wire Notes Line style solid
-	3350 750  3350 2050
+	4750 750  4750 2050
 Wire Notes Line style solid
-	5800 750  5800 2050
-Text Notes 4750 1100 0    50   ~ 0
+	7200 750  7200 2050
+Text Notes 6150 1100 0    50   ~ 0
 1100000 (Programmable)
-Text Notes 3400 1100 0    50   ~ 0
+Text Notes 4800 1100 0    50   ~ 0
 PT_DAC
-Text Notes 4350 1100 0    50   ~ 0
+Text Notes 5750 1100 0    50   ~ 0
 I2C0
 Wire Notes Line style solid
-	3350 900  5800 900 
+	4750 900  7200 900 
 Wire Notes Line style solid
-	3350 750  5800 750 
+	4750 750  7200 750 
 Wire Notes Line style solid
-	3350 2050 5800 2050
-Text Notes 3400 1200 0    50   ~ 0
+	4750 2050 7200 2050
+Text Notes 4800 1200 0    50   ~ 0
 PT_ADC
-Text Notes 4750 1200 0    50   ~ 0
+Text Notes 6150 1200 0    50   ~ 0
 1001001
-Text Notes 4350 1200 0    50   ~ 0
+Text Notes 5750 1200 0    50   ~ 0
 I2C0
-Text Notes 4750 1300 0    50   ~ 0
+Text Notes 6150 1300 0    50   ~ 0
 1100000 (Programmable)
-Text Notes 4350 1300 0    50   ~ 0
+Text Notes 5750 1300 0    50   ~ 0
 I2C1
-Text Notes 3400 1300 0    50   ~ 0
+Text Notes 4800 1300 0    50   ~ 0
 TC_DAC
-Text Notes 3400 1400 0    50   ~ 0
+Text Notes 4800 1400 0    50   ~ 0
 RTD0
-Text Notes 3400 1500 0    50   ~ 0
+Text Notes 4800 1500 0    50   ~ 0
 RTD1
-Text Notes 4750 1400 0    50   ~ 0
+Text Notes 6150 1400 0    50   ~ 0
 0100000
-Text Notes 4750 1500 0    50   ~ 0
+Text Notes 6150 1500 0    50   ~ 0
 0100001
-Text Notes 4350 1400 0    50   ~ 0
+Text Notes 5750 1400 0    50   ~ 0
 I2C2
-Text Notes 4350 1500 0    50   ~ 0
+Text Notes 5750 1500 0    50   ~ 0
 I2C2
 Wire Notes Line style solid
-	3350 1000 5800 1000
+	4750 1000 7200 1000
 $Comp
 L power:GND #PWR02
 U 1 1 5E4557E3
@@ -228,7 +228,7 @@ U 1 1 5E459C49
 P 1750 3800
 F 0 "J4" H 1850 3900 50  0000 C CNN
 F 1 "Conn_01x02_Male" V 1700 3950 50  0000 C CNN
-F 2 "" H 1750 3800 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 1750 3800 50  0001 C CNN
 F 3 "~" H 1750 3800 50  0001 C CNN
 	1    1750 3800
 	1    0    0    -1  
@@ -239,7 +239,7 @@ U 1 1 5E4651C2
 P 1250 3800
 F 0 "J2" H 1350 3900 50  0000 C CNN
 F 1 "Conn_01x02_Male" V 1200 3950 50  0000 C CNN
-F 2 "" H 1250 3800 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 1250 3800 50  0001 C CNN
 F 3 "~" H 1250 3800 50  0001 C CNN
 	1    1250 3800
 	1    0    0    -1  
@@ -250,7 +250,7 @@ U 1 1 5E46554D
 P 800 3800
 F 0 "J1" H 900 3900 50  0000 C CNN
 F 1 "Conn_01x02_Male" V 750 3950 50  0000 C CNN
-F 2 "" H 800 3800 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 800 3800 50  0001 C CNN
 F 3 "~" H 800 3800 50  0001 C CNN
 	1    800  3800
 	1    0    0    -1  
@@ -356,11 +356,11 @@ Text Label 2150 3000 2    50   ~ 0
 SEB_~INT
 Text Label 1100 1900 2    50   ~ 0
 SEB_~INT
-Text Notes 3400 1600 0    50   ~ 0
+Text Notes 4800 1600 0    50   ~ 0
 HE_ADC
-Text Notes 4350 1600 0    50   ~ 0
+Text Notes 5750 1600 0    50   ~ 0
 I2C3
-Text Notes 4750 1600 0    50   ~ 0
+Text Notes 6150 1600 0    50   ~ 0
 1001001
 Text Label 3050 2800 0    50   ~ 0
 SCL0
@@ -386,29 +386,29 @@ Text Label 3050 4100 0    50   ~ 0
 SDA3
 Text Label 3050 4200 0    50   ~ 0
 ~INT3
-Text Label 6750 1400 2    50   ~ 0
+Text Label 8750 2000 2    50   ~ 0
 SCL0
-Text Label 6750 1500 2    50   ~ 0
+Text Label 8750 2100 2    50   ~ 0
 SDA0
-Text Label 6750 1850 2    50   ~ 0
+Text Label 8750 2450 2    50   ~ 0
 SCL0
-Text Label 6750 1950 2    50   ~ 0
+Text Label 8750 2550 2    50   ~ 0
 SDA0
-Text Label 6750 3050 2    50   ~ 0
+Text Label 8750 3100 2    50   ~ 0
 SCL1
-Text Label 6750 3150 2    50   ~ 0
+Text Label 8750 3200 2    50   ~ 0
 SDA1
-Text Label 6750 4050 2    50   ~ 0
+Text Label 8750 4100 2    50   ~ 0
 SCL2
-Text Label 6750 4150 2    50   ~ 0
+Text Label 8750 4200 2    50   ~ 0
 SDA2
-Text Label 6750 4400 2    50   ~ 0
+Text Label 8750 4450 2    50   ~ 0
 SCL2
-Text Label 6750 4500 2    50   ~ 0
+Text Label 8750 4550 2    50   ~ 0
 SDA2
-Text Label 6750 5500 2    50   ~ 0
+Text Label 8750 5550 2    50   ~ 0
 SCL3
-Text Label 6750 5600 2    50   ~ 0
+Text Label 8750 5650 2    50   ~ 0
 SDA3
 $Comp
 L Interface_Expansion:TCA9555DBR U2
@@ -447,32 +447,32 @@ F 3 "" H 2550 5050 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2550 5050 2550 5100
-Text Notes 3400 1700 0    50   ~ 0
+Text Notes 4800 1700 0    50   ~ 0
 MISC
-Text Notes 4350 1700 0    50   ~ 0
+Text Notes 5750 1700 0    50   ~ 0
 I2C3
-Text Notes 4750 1700 0    50   ~ 0
+Text Notes 6150 1700 0    50   ~ 0
 0100000
 Wire Notes Line
-	3350 1200 5800 1200
+	4750 1200 7200 1200
 Wire Notes Line
-	3350 1300 5800 1300
+	4750 1300 7200 1300
 Wire Notes Line
-	3350 1500 5800 1500
+	4750 1500 7200 1500
 Wire Notes Line
-	3350 1700 5800 1700
+	4750 1700 7200 1700
 $Sheet
-S 6750 1300 1250 850 
+S 8750 1900 1250 850 
 U 5E059EAC
 F0 "PressureTransducer" 50
 F1 "PressureTransducer.sch" 50
-F2 "PT_DAC_SCL" I L 6750 1400 50 
-F3 "PT_DAC_SDA" I L 6750 1500 50 
-F4 "PT_DAC_RDY_~BSY" I L 6750 1700 50 
-F5 "PT_ADC_SCL" I L 6750 1850 50 
-F6 "PT_ADC_SDA" I L 6750 1950 50 
-F7 "PT_ADC_ALERT_RDY" I L 6750 2050 50 
-F8 "PT_DAC_~LDAC" I L 6750 1600 50 
+F2 "PT_DAC_SCL" I L 8750 2000 50 
+F3 "PT_DAC_SDA" I L 8750 2100 50 
+F4 "PT_DAC_RDY_~BSY" I L 8750 2300 50 
+F5 "PT_ADC_SCL" I L 8750 2450 50 
+F6 "PT_ADC_SDA" I L 8750 2550 50 
+F7 "PT_ADC_ALERT_RDY" I L 8750 2650 50 
+F8 "PT_DAC_~LDAC" I L 8750 2200 50 
 $EndSheet
 Text Label 3250 6100 0    50   ~ 0
 HE0
@@ -480,33 +480,33 @@ Text Label 3250 6300 0    50   ~ 0
 HE1
 Text Label 3250 6400 0    50   ~ 0
 HE2
-Text Label 6750 5350 2    50   ~ 0
+Text Label 8750 5400 2    50   ~ 0
 HE2
-Text Label 6750 5250 2    50   ~ 0
+Text Label 8750 5300 2    50   ~ 0
 HE1
-Text Label 6750 5150 2    50   ~ 0
+Text Label 8750 5200 2    50   ~ 0
 HE0
-Text Label 6750 3500 2    50   ~ 0
+Text Label 8750 3550 2    50   ~ 0
 TC0_POL
-Text Label 6750 3600 2    50   ~ 0
+Text Label 8750 3650 2    50   ~ 0
 TC1_POL
 Text Label 3250 5900 0    50   ~ 0
 TC0_POL
 Text Label 3250 6000 0    50   ~ 0
 TC1_POL
-Text Label 6750 3250 2    50   ~ 0
+Text Label 8750 3300 2    50   ~ 0
 TC_~LDAC
-Text Label 6750 3350 2    50   ~ 0
+Text Label 8750 3400 2    50   ~ 0
 TC_RDY_~BSY
 Text Label 3250 5700 0    50   ~ 0
 TC_~LDAC
 Text Label 3250 5800 0    50   ~ 0
 TC_RDY_~BSY
-Text Label 6750 1600 2    50   ~ 0
+Text Label 8750 2200 2    50   ~ 0
 PT_DAC_~LDAC
-Text Label 6750 1700 2    50   ~ 0
+Text Label 8750 2300 2    50   ~ 0
 PT_DAC_~BSY
-Text Label 6750 2050 2    50   ~ 0
+Text Label 8750 2650 2    50   ~ 0
 PT_ADC_ALERT_RDY
 Text Label 3250 5400 0    50   ~ 0
 PT_DAC_~LDAC
@@ -514,7 +514,7 @@ Text Label 3250 5500 0    50   ~ 0
 PT_DAC_~BSY
 Text Label 3250 5600 0    50   ~ 0
 PT_ADC_ALERT_RDY
-Text Label 6750 5700 2    50   ~ 0
+Text Label 8750 5750 2    50   ~ 0
 HE_ADC_ALERT_RDY
 Text Label 3250 6500 0    50   ~ 0
 HE_ADC_ALERT_RDY
@@ -693,8 +693,8 @@ F 3 "" H 1150 2650 50  0001 C CNN
 	1    1150 2650
 	1    0    0    -1  
 $EndComp
-NoConn ~ 6750 4250
-NoConn ~ 6750 4600
+NoConn ~ 8750 4300
+NoConn ~ 8750 4650
 NoConn ~ 3250 6600
 NoConn ~ 3250 6700
 NoConn ~ 3250 6800
@@ -919,4 +919,6 @@ F 3 "~" H 2000 4400 50  0001 C CNN
 	1    2000 4400
 	1    0    0    -1  
 $EndComp
+Text Notes 2650 2550 0    50   ~ 0
+I2C Address 1110xxx
 $EndSCHEMATC

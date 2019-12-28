@@ -1810,105 +1810,105 @@ $EndComp
 $Comp
 L Interface_Expansion:TCA9555DBR U7
 U 1 1 5E5E396C
-P 9000 2200
-F 0 "U7" H 9450 3150 50  0000 C CNN
-F 1 "TCA9555DBR" H 8650 3150 50  0000 C CNN
-F 2 "Package_SO:SSOP-24_5.3x8.2mm_P0.65mm" H 10050 1200 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tca9555.pdf" H 8500 3100 50  0001 C CNN
-	1    9000 2200
+P 9000 2300
+F 0 "U7" H 9450 3250 50  0000 C CNN
+F 1 "TCA9555DBR" H 8650 3250 50  0000 C CNN
+F 2 "Package_SO:SSOP-24_5.3x8.2mm_P0.65mm" H 10050 1300 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tca9555.pdf" H 8500 3200 50  0001 C CNN
+	1    9000 2300
 	1    0    0    -1  
 $EndComp
-Text Label 9700 2700 0    50   ~ 0
+Text Label 9700 2800 0    50   ~ 0
 RTD0_12
-Text Label 9700 2600 0    50   ~ 0
+Text Label 9700 2700 0    50   ~ 0
 RTD0_11
-Text Label 9700 2500 0    50   ~ 0
+Text Label 9700 2600 0    50   ~ 0
 RTD0_10
-Text Label 9700 2400 0    50   ~ 0
+Text Label 9700 2500 0    50   ~ 0
 RTD0_9
-Text Label 9700 2300 0    50   ~ 0
+Text Label 9700 2400 0    50   ~ 0
 RTD0_8
-Text Label 9700 2100 0    50   ~ 0
+Text Label 9700 2200 0    50   ~ 0
 RTD0_7
-Text Label 9700 2000 0    50   ~ 0
+Text Label 9700 2100 0    50   ~ 0
 RTD0_6
-Text Label 9700 1900 0    50   ~ 0
+Text Label 9700 2000 0    50   ~ 0
 RTD0_5
-Text Label 9700 1800 0    50   ~ 0
+Text Label 9700 1900 0    50   ~ 0
 RTD0_4
-Text Label 9700 1700 0    50   ~ 0
+Text Label 9700 1800 0    50   ~ 0
 RTD0_3
-Text Label 9700 1600 0    50   ~ 0
+Text Label 9700 1700 0    50   ~ 0
 RTD0_2
-Text Label 9700 5450 0    50   ~ 0
+Text Label 9700 5650 0    50   ~ 0
 RTD1_12
-Text Label 9700 5350 0    50   ~ 0
+Text Label 9700 5550 0    50   ~ 0
 RTD1_11
-Text Label 9700 5250 0    50   ~ 0
+Text Label 9700 5450 0    50   ~ 0
 RTD1_10
-Text Label 9700 5150 0    50   ~ 0
+Text Label 9700 5350 0    50   ~ 0
 RTD1_9
-Text Label 9700 5050 0    50   ~ 0
+Text Label 9700 5250 0    50   ~ 0
 RTD1_8
-Text Label 9700 4850 0    50   ~ 0
+Text Label 9700 5050 0    50   ~ 0
 RTD1_7
-Text Label 9700 4750 0    50   ~ 0
+Text Label 9700 4950 0    50   ~ 0
 RTD1_6
-Text Label 9700 4650 0    50   ~ 0
+Text Label 9700 4850 0    50   ~ 0
 RTD1_5
-Text Label 9700 4550 0    50   ~ 0
+Text Label 9700 4750 0    50   ~ 0
 RTD1_4
-Text Label 9700 4450 0    50   ~ 0
+Text Label 9700 4650 0    50   ~ 0
 RTD1_3
-Text Label 9700 4350 0    50   ~ 0
+Text Label 9700 4550 0    50   ~ 0
 RTD1_2
-Text Label 9700 4250 0    50   ~ 0
+Text Label 9700 4450 0    50   ~ 0
 RTD1_1
-Text Label 9700 4150 0    50   ~ 0
+Text Label 9700 4350 0    50   ~ 0
 RTD1_0
-Text Label 9700 1400 0    50   ~ 0
-RTD0_0
 Text Label 9700 1500 0    50   ~ 0
+RTD0_0
+Text Label 9700 1600 0    50   ~ 0
 RTD0_1
-NoConn ~ 9700 2800
+NoConn ~ 9700 2900
 $Comp
 L Interface_Expansion:TCA9555DBR U8
 U 1 1 5E937576
-P 9000 4950
-F 0 "U8" H 9450 5900 50  0000 C CNN
-F 1 "TCA9555DBR" H 8650 5900 50  0000 C CNN
-F 2 "Package_SO:SSOP-24_5.3x8.2mm_P0.65mm" H 10050 3950 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tca9555.pdf" H 8500 5850 50  0001 C CNN
-	1    9000 4950
+P 9000 5150
+F 0 "U8" H 9450 6100 50  0000 C CNN
+F 1 "TCA9555DBR" H 8650 6100 50  0000 C CNN
+F 2 "Package_SO:SSOP-24_5.3x8.2mm_P0.65mm" H 10050 4150 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tca9555.pdf" H 8500 6050 50  0001 C CNN
+	1    9000 5150
 	1    0    0    -1  
 $EndComp
-NoConn ~ 9700 5550
+NoConn ~ 9700 5750
 $Comp
 L power:GND #PWR038
 U 1 1 5E9AA3EC
-P 9000 6100
-F 0 "#PWR038" H 9000 5850 50  0001 C CNN
-F 1 "GND" H 9005 5927 50  0000 C CNN
-F 2 "" H 9000 6100 50  0001 C CNN
-F 3 "" H 9000 6100 50  0001 C CNN
-	1    9000 6100
+P 9000 6300
+F 0 "#PWR038" H 9000 6050 50  0001 C CNN
+F 1 "GND" H 9005 6127 50  0000 C CNN
+F 2 "" H 9000 6300 50  0001 C CNN
+F 3 "" H 9000 6300 50  0001 C CNN
+	1    9000 6300
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9000 6100 9000 6050
+	9000 6300 9000 6250
 $Comp
 L power:GND #PWR036
 U 1 1 5E9D2908
-P 9000 3350
-F 0 "#PWR036" H 9000 3100 50  0001 C CNN
-F 1 "GND" H 9005 3177 50  0000 C CNN
-F 2 "" H 9000 3350 50  0001 C CNN
-F 3 "" H 9000 3350 50  0001 C CNN
-	1    9000 3350
+P 9000 3450
+F 0 "#PWR036" H 9000 3200 50  0001 C CNN
+F 1 "GND" H 9005 3277 50  0000 C CNN
+F 2 "" H 9000 3450 50  0001 C CNN
+F 3 "" H 9000 3450 50  0001 C CNN
+	1    9000 3450
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9000 3350 9000 3300
+	9000 3450 9000 3400
 $Comp
 L power:+5V #PWR035
 U 1 1 5E9ED07C
@@ -1925,100 +1925,100 @@ Wire Wire Line
 $Comp
 L power:+5V #PWR037
 U 1 1 5EA01291
-P 9000 3800
-F 0 "#PWR037" H 9000 3650 50  0001 C CNN
-F 1 "+5V" H 9015 3973 50  0000 C CNN
-F 2 "" H 9000 3800 50  0001 C CNN
-F 3 "" H 9000 3800 50  0001 C CNN
-	1    9000 3800
+P 9000 3900
+F 0 "#PWR037" H 9000 3750 50  0001 C CNN
+F 1 "+5V" H 9015 4073 50  0000 C CNN
+F 2 "" H 9000 3900 50  0001 C CNN
+F 3 "" H 9000 3900 50  0001 C CNN
+	1    9000 3900
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9000 3800 9000 3850
+	9000 3900 9000 3950
 $Comp
 L power:GND #PWR033
 U 1 1 5EA15395
-P 8250 3050
-F 0 "#PWR033" H 8250 2800 50  0001 C CNN
-F 1 "GND" H 8255 2877 50  0000 C CNN
-F 2 "" H 8250 3050 50  0001 C CNN
-F 3 "" H 8250 3050 50  0001 C CNN
-	1    8250 3050
+P 8250 3150
+F 0 "#PWR033" H 8250 2900 50  0001 C CNN
+F 1 "GND" H 8255 2977 50  0000 C CNN
+F 2 "" H 8250 3150 50  0001 C CNN
+F 3 "" H 8250 3150 50  0001 C CNN
+	1    8250 3150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8250 3050 8250 3000
-Wire Wire Line
-	8250 2800 8300 2800
+	8250 3150 8250 3100
 Wire Wire Line
 	8250 2900 8300 2900
-Connection ~ 8250 2900
-Wire Wire Line
-	8250 2900 8250 2800
 Wire Wire Line
 	8250 3000 8300 3000
 Connection ~ 8250 3000
 Wire Wire Line
 	8250 3000 8250 2900
+Wire Wire Line
+	8250 3100 8300 3100
+Connection ~ 8250 3100
+Wire Wire Line
+	8250 3100 8250 3000
 $Comp
 L power:GND #PWR034
 U 1 1 5EA526F6
-P 8250 5800
-F 0 "#PWR034" H 8250 5550 50  0001 C CNN
-F 1 "GND" H 8255 5627 50  0000 C CNN
-F 2 "" H 8250 5800 50  0001 C CNN
-F 3 "" H 8250 5800 50  0001 C CNN
-	1    8250 5800
+P 8250 6000
+F 0 "#PWR034" H 8250 5750 50  0001 C CNN
+F 1 "GND" H 8255 5827 50  0000 C CNN
+F 2 "" H 8250 6000 50  0001 C CNN
+F 3 "" H 8250 6000 50  0001 C CNN
+	1    8250 6000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8250 5550 8300 5550
+	8250 5750 8300 5750
 Wire Wire Line
-	8250 5650 8300 5650
-Connection ~ 8250 5650
+	8250 5850 8300 5850
+Connection ~ 8250 5850
 Wire Wire Line
-	8250 5650 8250 5550
+	8250 5850 8250 5750
 Wire Wire Line
-	8250 5650 8250 5800
+	8250 5850 8250 6000
 Wire Wire Line
-	8300 5750 8200 5750
+	8300 5950 8200 5950
 Wire Wire Line
-	8200 5750 8200 5500
+	8200 5950 8200 5700
 $Comp
 L power:+5V #PWR032
 U 1 1 5EA7E02B
-P 8200 5500
-F 0 "#PWR032" H 8200 5350 50  0001 C CNN
-F 1 "+5V" H 8215 5673 50  0000 C CNN
-F 2 "" H 8200 5500 50  0001 C CNN
-F 3 "" H 8200 5500 50  0001 C CNN
-	1    8200 5500
+P 8200 5700
+F 0 "#PWR032" H 8200 5550 50  0001 C CNN
+F 1 "+5V" H 8215 5873 50  0000 C CNN
+F 2 "" H 8200 5700 50  0001 C CNN
+F 3 "" H 8200 5700 50  0001 C CNN
+	1    8200 5700
 	1    0    0    -1  
 $EndComp
-Text HLabel 8200 1400 0    50   Input ~ 0
-RTD0_SDA
 Text HLabel 8200 1500 0    50   Input ~ 0
-RTD0_SCL
+RTD0_SDA
 Text HLabel 8200 1600 0    50   Input ~ 0
+RTD0_SCL
+Text HLabel 8200 1700 0    50   Input ~ 0
 RTD0_~INT
 Wire Wire Line
-	8200 1400 8300 1400
+	8200 1500 8300 1500
 Wire Wire Line
-	8300 1500 8200 1500
+	8300 1600 8200 1600
 Wire Wire Line
-	8200 1600 8300 1600
-Text HLabel 8200 4150 0    50   Input ~ 0
-RTD1_SDA
-Text HLabel 8200 4250 0    50   Input ~ 0
-RTD1_SCL
+	8200 1700 8300 1700
 Text HLabel 8200 4350 0    50   Input ~ 0
+RTD1_SDA
+Text HLabel 8200 4450 0    50   Input ~ 0
+RTD1_SCL
+Text HLabel 8200 4550 0    50   Input ~ 0
 RTD1_~INT
 Wire Wire Line
-	8200 4150 8300 4150
-Wire Wire Line
-	8300 4250 8200 4250
-Wire Wire Line
 	8200 4350 8300 4350
+Wire Wire Line
+	8300 4450 8200 4450
+Wire Wire Line
+	8200 4550 8300 4550
 $Comp
 L Device:Q_NMOS_GDS Q16
 U 1 1 5E0806DD
@@ -2121,13 +2121,13 @@ Wire Wire Line
 Wire Wire Line
 	1900 1050 2300 1050
 Connection ~ 2300 1050
-Text Label 9700 5750 0    50   ~ 0
+Text Label 9700 5950 0    50   ~ 0
 RTD1_OS
-Text Label 9700 5650 0    50   ~ 0
+Text Label 9700 5850 0    50   ~ 0
 RTD1_SS
-Text Label 9700 3000 0    50   ~ 0
+Text Label 9700 3100 0    50   ~ 0
 RTD0_OS
-Text Label 9700 2900 0    50   ~ 0
+Text Label 9700 3000 0    50   ~ 0
 RTD0_SS
 $Comp
 L Connector:Conn_01x02_Male J10
@@ -2159,4 +2159,68 @@ Text Label 850  3600 2    50   ~ 0
 RTD0+
 Text Label 850  3700 2    50   ~ 0
 RTD0-
+$Comp
+L Device:C C?
+U 1 1 5E14F69C
+P 9400 1100
+F 0 "C?" V 9148 1100 50  0000 C CNN
+F 1 ".1uF" V 9239 1100 50  0000 C CNN
+F 2 "" H 9438 950 50  0001 C CNN
+F 3 "~" H 9400 1100 50  0001 C CNN
+	1    9400 1100
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E14F6A2
+P 9600 1150
+F 0 "#PWR?" H 9600 900 50  0001 C CNN
+F 1 "GND" H 9605 977 50  0000 C CNN
+F 2 "" H 9600 1150 50  0001 C CNN
+F 3 "" H 9600 1150 50  0001 C CNN
+	1    9600 1150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9550 1100 9600 1100
+Wire Wire Line
+	9600 1100 9600 1150
+Wire Wire Line
+	9250 1100 9000 1100
+Connection ~ 9000 1100
+Wire Wire Line
+	9000 1100 9000 1200
+$Comp
+L Device:C C?
+U 1 1 5E1993D5
+P 9400 3950
+AR Path="/5E1993D5" Ref="C?"  Part="1" 
+AR Path="/5E059E9F/5E1993D5" Ref="C?"  Part="1" 
+F 0 "C?" V 9148 3950 50  0000 C CNN
+F 1 ".1uF" V 9239 3950 50  0000 C CNN
+F 2 "" H 9438 3800 50  0001 C CNN
+F 3 "~" H 9400 3950 50  0001 C CNN
+	1    9400 3950
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E1993DB
+P 9600 4000
+F 0 "#PWR?" H 9600 3750 50  0001 C CNN
+F 1 "GND" H 9605 3827 50  0000 C CNN
+F 2 "" H 9600 4000 50  0001 C CNN
+F 3 "" H 9600 4000 50  0001 C CNN
+	1    9600 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9550 3950 9600 3950
+Wire Wire Line
+	9600 3950 9600 4000
+Wire Wire Line
+	9000 3950 9250 3950
+Connection ~ 9000 3950
+Wire Wire Line
+	9000 3950 9000 4050
 $EndSCHEMATC

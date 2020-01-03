@@ -1,0 +1,23 @@
+image: alpine
+
+stages:
+    - schematicPDF
+
+scheamticPDF:
+    stage: schematicPDF
+    before_script:
+        apk update
+        apk add python3.6 python3-pip python3-setuptools python3-dev
+        apk add kicad xvfb recordmydesktop xdotool xclip
+        apk add openssh-client
+        pip install wheel
+        pip install -r eeschema/requirements.txt
+        git clone https://github.com/DavidWKnight/kicad-automation-scripts.git
+        
+    script:
+        mkdir out/
+        python3 -m kicad-automation-scripts.src.eeschema.schematic export -f pdf --all_pages --default_directory SensorExtentionBoard/SensorExtentionBoard.sch out/
+        ssh deployuser@elon.sdsurocketproject.org "rm -f /var/www/html/wikistatic/Helix-Test-Rig-Hardware/SensorExtentionBoard.pdf"
+        scp SensorExtentionBoard/SensorExtentionBoard.pdf deployuser@elon.sdsurocketproject.org:/var/www/html/wikistatic/Helix-Test-Rig-Hardware/
+    only:
+        - master

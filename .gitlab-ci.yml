@@ -11,7 +11,6 @@ scheamticPDF:
         apk add kicad xvfb recordmydesktop xdotool xclip
         apk add openssh-client
         pip install wheel
-        pip install -r eeschema/requirements.txt
         git clone https://github.com/DavidWKnight/kicad-automation-scripts.git
         
     script:

@@ -7,7 +7,7 @@ scheamticPDF:
     stage: schematicPDF
     before_script:
         - apk update
-        - apk add python3.6 python3-pip python3-setuptools python3-dev
+        - apk add python3 py-pip py3-setuptools python3-dev
         - apk add kicad xvfb recordmydesktop xdotool xclip
         - apk add openssh-client
         - pip install wheel

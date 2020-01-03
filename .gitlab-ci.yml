@@ -6,7 +6,11 @@ stages:
 scheamticPDF:
     stage: schematicPDF
     before_script:
-        - apk add openssh-client
+        - mkdir -p ~/.ssh
+        - echo -e "$SSH_PRIVATE_KEY" > ~/.ssh/id_rsa
+        - chmod 600 ~/.ssh/id_rsa
+        - '[[ -f /.dockerenv ]] && echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config'
+        - apk update && apk add openssh-client
     script:
         - ssh deployuser@elon.sdsurocketproject.org "rm -f /var/www/html/wikistatic/Helix-Test-Rig-Hardware/SensorExtentionBoard.pdf"
         - scp SensorExtentionBoard/SensorExtentionBoard.pdf deployuser@elon.sdsurocketproject.org:/var/www/html/wikistatic/Helix-Test-Rig-Hardware/
